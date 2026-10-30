@@ -11,4 +11,7 @@ export class KoszykComponent {
   dodaj(produkt: string) {
     this.koszyk.push(produkt);
   }
+  usun(produkt: string) {
+  this.koszyk = this.koszyk.filter(p => p !== produkt);
+}
 }
