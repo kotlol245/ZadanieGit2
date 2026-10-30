@@ -13,5 +13,5 @@ import { CommonModule } from '@angular/common';
   `
 })
 export class ProduktyComponent {
-  produkty: string[] = ['Chleb', 'Mleko', 'Masło'];
+  produkty: string[] = ['Chleb', 'Mleko', 'Masło', 'Diablo'];
 }
