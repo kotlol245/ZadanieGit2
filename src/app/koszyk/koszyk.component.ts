@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-koszyk',
   standalone: true,
-  template: `<p>Koszyk (0)</p>`
+  template: `<p>Koszyk (0)</p>`,
 })
 export class KoszykComponent {
   koszyk: string[] = [];
@@ -12,6 +12,6 @@ export class KoszykComponent {
     this.koszyk.push(produkt);
   }
   usun(produkt: string) {
-  this.koszyk = this.koszyk.filter(p => p !== produkt);
-}
+    this.koszyk = this.koszyk.filter((p) => p !== produkt);
+  }
 }

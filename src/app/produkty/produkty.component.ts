@@ -10,7 +10,7 @@ import { CommonModule } from '@angular/common';
     <ul>
       <li *ngFor="let p of produkty">{{ p }}</li>
     </ul>
-  `
+  `,
 })
 export class ProduktyComponent {
   produkty: string[] = ['Chleb', 'Mleko', 'Masło', 'Diablo'];
